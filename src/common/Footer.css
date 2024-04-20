@@ -1,0 +1,59 @@
+#Footer{
+    background-color: rgb(6, 0, 78);
+}
+
+.socaialicons{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 121, 37);
+   
+}
+.socaialicons:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 121, 37);
+}
+.socaialiconspadding{
+    margin-top: 14px !important;
+}
+
+
+.cardfooter{
+    background-color: rgb(6, 0, 78) !important;
+}
+.footerheading{
+    color: rgb(255, 116, 47);
+    font-size: 21px;
+    font-weight: 600;
+}
+.sublinks{
+    text-decoration: none !important;
+    color: rgb(199, 199, 199) !important;
+}
+.sublinks:hover{
+    color: rgb(255, 128, 36) !important;
+    text-decoration: underline !important;
+}
+.footerbtn{
+    background: rgb(255, 137, 54) !important;
+    color: white !important;
+}
+.footerbtn:hover{
+    background: white !important;
+    color: rgb(193, 77, 0) !important;
+}
+.logoname{
+    font-size: 22px;
+    color: white;
+}
+.logo{
+    padding-top: 15px;
+}
+.new4{
+    border: 1px solid rgb(193, 201, 218);
+}
+
+
+
+
+.copyright{
+    background-color: rgb(172, 172, 172);
+}

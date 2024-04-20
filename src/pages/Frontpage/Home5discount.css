@@ -1,0 +1,47 @@
+#home5discount{
+   padding-top: 80px;
+   padding-bottom: 80px;
+   background-color: rgb(204, 233, 255);
+}
+.discount{
+    height: 110px;
+  width: auto;
+  background-color: rgb(255, 92, 27);
+  color: #fff;
+  border: 5px solid rgb(0, 0, 0);
+}
+.discounttext{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 29px !important;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.discountbtn{
+
+    background: #000000 !important;
+    border: 5px solid rgb(10, 239, 212) !important;
+    color: white !important;
+    margin-top: 28px;
+}
+.discountbtn:hover{
+    background: #ffffff !important;
+    color: rgb(0, 0, 0) !important;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .discounttext{
+        font-size: 21px;
+        font-weight: 600;
+        margin-top: 29px !important;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .discountbtn{
+
+        background: #000000 !important;
+        border: 5px solid rgb(10, 239, 212) !important;
+        color: white !important;
+        margin-top: 17px;
+    }
+}

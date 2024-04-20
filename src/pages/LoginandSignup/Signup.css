@@ -1,0 +1,12 @@
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #ff821b;
+}
+
+.loginbtn{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}

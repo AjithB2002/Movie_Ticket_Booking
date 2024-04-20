@@ -1,0 +1,25 @@
+.navhead{
+   
+    font-weight: 500 ;
+    font-size: 18px;
+    background-color: rgb(6, 0, 78);
+}
+.navhead ul li a:hover{
+    color:#FF6B22;
+
+}
+.navhome{
+    color: #FF6B22 !important;
+}
+.logoname{
+padding-top: 20px !important;
+}
+
+.navlogo{
+padding-bottom: 19px;
+}
+.modelclosebtn{
+    background: rgb(0,213,255);
+    background: linear-gradient(90deg, rgba(0,213,255,1) 0%, rgba(186,237,255,1) 100%);
+    
+}

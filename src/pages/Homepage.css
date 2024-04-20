@@ -1,0 +1,74 @@
+.home{
+    background-image: url("../assets/Homecollection/theater1.jpg")  ;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+  background-size: cover;
+  height: 100vh;
+  padding-top: 200px;
+}
+.hometitle{
+font-size: 53px;
+text-transform:uppercase ;
+}
+.moreinfobtn{
+  width: 18%;
+  height: 50px;
+  cursor: pointer;
+  font-size: 21px;
+  font-weight: 500;
+  background: #ff821b !important;
+  border: 4px solid rgb(67, 10, 239) !important;
+}
+.moreinfobtn:hover{
+  border: 4px solid rgb(188, 234, 255) !important;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+  .home{
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px; 
+    height:100%;
+    width:100%; 
+ 
+}
+
+.hometitle{
+  font-size: 27px;
+
+}
+.moreinfobtn {
+  width: 50%; 
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+}
+
+
+
+
+@media (max-width: 1024px) {
+  .home{
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+    padding-top: 70px; 
+    height:100%;
+    width:100%; 
+ 
+}
+.hometitle{
+  font-size: 27px;
+}
+.moreinfobtn {
+  width: 40%; 
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+}

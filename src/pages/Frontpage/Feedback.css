@@ -1,0 +1,50 @@
+#feedback{
+    padding-top: 100px;
+    padding-bottom: 80px;
+    background-color: rgb(216, 250, 255);
+}
+.feedbackheading{
+    font-size: 33px;
+    font-weight: 700;
+}
+.lijishlogo{
+    width: 120px;
+    height: auto;
+    border: 5px solid rgb(16, 0, 188);
+    border-radius: 20%;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.customername{
+    padding-left: 35px !important;
+}
+.feedback_card{
+    border: 5px solid black !important;
+}
+.feedback_card:hover{
+    border: 5px solid rgb(255, 107, 38) !important;
+}
+.feedbackbtn{
+    background: #000000 !important;
+    border: 4px solid rgb(0, 0, 0) !important;
+    color: white !important;
+}
+.feedbackbtn:hover{
+    background: #ff6309 !important;
+}
+.fbusername{
+    color: #fd6f1d ;
+    
+}
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: rgb(255, 255, 255);
+    background-color: rgb(255, 118, 39);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255);
+}
