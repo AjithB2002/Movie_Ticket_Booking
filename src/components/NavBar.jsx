@@ -4,13 +4,14 @@ import movielogo from '../assets/movie logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser } from "@fortawesome/free-regular-svg-icons";
 import Login from "../pages/LoginandSignup/Login";
+import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
     <>
       <nav className="navbar navbar-expand-lg  navbar-dark  p-3  navhead">
         <div className="container-fluid">
-          <a className="navbar-brand " href="#"><img src={movielogo} className="navlogo" alt="Logo" width="35px" height="auto" /> <span className="logoname">BL MOVIES</span></a>
+          <Link className="navbar-brand " to="Movie_Ticket_Booking/"><img src={movielogo} className="navlogo" alt="Logo" width="35px" height="auto" /> <span className="logoname">BL MOVIES</span></Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -18,7 +19,7 @@ function NavBar() {
           <div className=" collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav ms-auto ">
               <li className="nav-item">
-                <a className="nav-link mx-2  navhome" aria-current="page" href="#">Home</a>
+                <Link className="nav-link mx-2  navhome" aria-current="page" to="Movie_Ticket_Booking/">Home</Link>
               </li>
               <li className="nav-item dropdown">
                 <a className="nav-link mx-2 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
