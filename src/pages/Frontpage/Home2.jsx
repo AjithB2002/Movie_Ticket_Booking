@@ -23,7 +23,7 @@ function Home2() {
     // Fetch the now playing movies after a 3-second delay
     const timer = setTimeout(() => {
       fetchMovies();
-    }, 4000);
+    }, 3000);
 
     // Clean up the timer when the component unmounts
     return () => {
@@ -35,7 +35,7 @@ function Home2() {
     <div className='home2 '>
       <div className="home2heading pt-3 pb-1">
         <p className='text-center text-secondary h5'>Watch New Movies</p>
-        <h1 className='text-center nowplaying pt-2'>Movie Now Playing</h1>
+        <h1 className='text-center home2nowplayingtitle pt-2'>Movie Now Playing</h1>
       </div>
       {
         !nowPlayingMovies ? (

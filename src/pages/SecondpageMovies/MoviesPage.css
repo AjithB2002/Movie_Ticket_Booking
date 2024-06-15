@@ -1,0 +1,14 @@
+.moviespage{
+    background-color: rgb(6, 1, 77);
+
+}
+.moviespageheading{
+    color: rgb(255, 55, 0);
+    padding-bottom: 40px ;
+   
+}
+.moviespageoutercard{
+    background-color: rgb(254, 137, 11) !important;
+    padding-bottom: 25px;
+   
+}

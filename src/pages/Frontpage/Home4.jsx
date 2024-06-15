@@ -25,7 +25,7 @@ function Home4() {
     // Fetch the now playing movies after a 3-second delay
     const timer = setTimeout(() => {
       fetchMovies();
-    }, 4000);
+    }, 3000);
 
     // Clean up the timer when the component unmounts
     return () => {
@@ -41,24 +41,24 @@ function Home4() {
           <p className='text-center text-secondary h5'>New Upcoming Movies</p>
           <h1 className='text-center upcomingmovies pt-2'>Movies Coming Soon</h1>
         </div>
-        <div className=' container '>
-          <div className='pt-2 '>
-            <div className="row row-cols-1 row-cols-md-4 g-4 pt-5">
+          
               {
                 !upComingMovies ? (
                   <div className="m-5 p-5 d-flex justify-content-center text-center">
                     <Loader />
                   </div>
                 ) : (
+                 <div className="container">
+                   <div className="row row-cols-1 row-cols-md-4 g-4 pt-5 ">
+                    {
                   upComingMovies.map(movie => (
-                    <div className="col">
+                    <div className="col" key={movie.id}>
                       <Home4Card movie={movie} />
                     </div>
-                  ))
+                  ))}
+                  </div>
+                 </div>
                 )}
-            </div>
-          </div>
-        </div>
       </div>
 
     </>
@@ -67,3 +67,4 @@ function Home4() {
 }
 
 export default Home4;
+

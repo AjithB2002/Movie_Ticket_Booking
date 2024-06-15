@@ -27,11 +27,11 @@ function NavBar() {
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <li><a className="dropdown-item" href="#">Movie All</a></li>
-                  <li><a className="dropdown-item" href="#">Movie Now Playing</a></li>
-                  <li><a className="dropdown-item" href="#">Movie Coming Soon</a></li>
-                  <li><a className="dropdown-item" href="#">Movie Category</a></li>
-                  <li><a className="dropdown-item" href="#"> Movie Featured</a></li>
-                  <li><a className="dropdown-item" href="#"> Movie Details</a></li>
+                  <li><Link className="dropdown-item" to="Movie_Ticket_Booking/nowplaying">Movie Now Playing</Link></li>
+                  <li><Link className="dropdown-item" to="Movie_Ticket_Booking/TopRated">Top Rated Movies</Link></li>
+                  <li><Link className="dropdown-item" to="Movie_Ticket_Booking/upcoming">Upcoming Movies</Link></li>
+                  <li><Link className="dropdown-item" to="Movie_Ticket_Booking/popular">Popular Movies</Link></li>
+                  <li><a className="dropdown-item" href="#">Movie Details</a></li>
                 </ul>
               </li>
               <li className="nav-item dropdown">
@@ -39,7 +39,6 @@ function NavBar() {
                   Events
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a className="dropdown-item" href="#">Event Grid</a></li>
                   <li><a className="dropdown-item" href="#">Event List</a></li>
                   <li><a className="dropdown-item" href="#">Event Details </a></li>
                 </ul>
@@ -61,7 +60,6 @@ function NavBar() {
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <li><a className="dropdown-item" href="#">News</a></li>
-                  <li><a className="dropdown-item" href="#">News Grid</a></li>
                   <li><a className="dropdown-item" href="#">News Details</a></li>
                   <li><a className="dropdown-item" href="#">Contact us</a></li>
                 </ul>
